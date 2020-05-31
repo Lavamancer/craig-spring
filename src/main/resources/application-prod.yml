@@ -1,0 +1,11 @@
+spring:
+  h2:
+    console:
+      enabled: false
+  datasource:
+    url: jdbc:mysql://craigdb:3306/craigdb
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
